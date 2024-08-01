@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cup Time - время кофе и чая</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
-<body style="background-color: aqua;">
+<body>
 
     <header class="header">
-        <div class="container">
+        <div class="container header__container">
             <a class="header__logo-link">
                 <img class="header__logo" src="images/logo.svg" alt="Логотип Cup Time">
             </a>
@@ -46,70 +49,83 @@
     <main class="main">
         <section class="promo">
             <div class="container">
-                <div class="container">
-                    <div class="promo__container">
-                        <h1 class="promo__title">
-                            Попробуй новый вкус Арабики
-                        </h1>
+                <div class="promo__container">
+                    <h1 class="promo__title">
+                        Попробуй новый вкус Арабики
+                    </h1>
 
-                        <a href="#" class="promo__link">Перейти к кофе</a>
-                    </div>
+                    <a href="#" class="promo__link">Перейти к кофе</a>
                 </div>
             </div>
+
         </section>
 
         <section class="products">
-            <h2 class="products__title">Чай</h2>
+            <div class="container">
+                <h2 class="products__title">Чай</h2>
 
-            <ul class="products__list">
-                <li class="products__item">
-                    <article class="product">
-                        <img src="images/photo-2.png" alt="Кокосовая матча" class="product__image">
-                        <h3 class="product__title">Кокосовая матча</h3>
-                        <p class="product__price">390 ₽</p>
-                    </article>
-                </li>
+                <ul class="products__list">
+                    <li class="products__item">
+                        <article class="product">
+                            <img src="images/photo-2.png" alt="Кокосовая матча" class="product__image">
+                            <div class="product__content">
+                                <h3 class="product__title">Кокосовая матча</h3>
+                                <p class="product__price">390 ₽</p>
+                            </div>
+                        </article>
+                    </li>
 
-                <li class="products__item">
-                    <article class="product">
-                        <img src="images/photo-1.png" alt="Зеленый индонезийский чай" class="product__image">
-                        <h3 class="product__title">Зеленый индонезийский чай</h3>
-                        <p class="product__price">340 ₽</p>
-                    </article>
-                </li>
+                    <li class="products__item">
+                        <article class="product">
+                            <img src="images/photo-1.png" alt="Зеленый индонезийский чай" class="product__image">
+                            <div class="product__content">
+                                <h3 class="product__title">Зеленый индонезийский чай</h3>
+                                <p class="product__price">340 ₽</p>
+                            </div>
+                        </article>
+                    </li>
 
-                <li class="products__item">
-                    <article class="product">
-                        <img src="images/photo-6.png" alt="Черный чай из Эфиопии" class="product__image">
-                        <h3 class="product__title">Черный чай из Эфиопии</h3>
-                        <p class="product__price">380 ₽</p>
-                    </article>
-                </li>
+                    <li class="products__item">
+                        <article class="product">
+                            <img src="images/photo-6.png" alt="Черный чай из Эфиопии" class="product__image">
+                            <div class="product__content">
+                                <h3 class="product__title">Черный чай из Эфиопии</h3>
+                                <p class="product__price">380 ₽</p>
+                            </div>
+                        </article>
+                    </li>
 
-                <li class="products__item">
-                    <article class="product">
-                        <img src="images/photo-5.png" alt="Черный чай из Калифорнии" class="product__image">
-                        <h3 class="product__title">Черный чай из Калифорнии</h3>
-                        <p class="product__price">360 ₽</p>
-                    </article>
-                </li>
+                    <li class="products__item">
+                        <article class="product">
+                            <img src="images/photo-5.png" alt="Черный чай из Калифорнии" class="product__image">
+                            <div class="product__content">
+                                <h3 class="product__title">Черный чай из Калифорнии</h3>
+                                <p class="product__price">360 ₽</p>
+                            </div>
+                        </article>
+                    </li>
 
-                <li class="products__item">
-                    <article class="product">
-                        <img src="images/photo-4.png" alt="Органическая веганская матча" class="product__image">
-                        <h3 class="product__title">Органическая веганская матча</h3>
-                        <p class="product__price">400 ₽</p>
-                    </article>
-                </li>
+                    <li class="products__item">
+                        <article class="product">
+                            <img src="images/photo-4.png" alt="Органическая веганская матча" class="product__image">
+                            <div class="product__content">
+                                <h3 class="product__title">Органическая веганская матча</h3>
+                                <p class="product__price">400 ₽</p>
+                            </div>
+                        </article>
+                    </li>
 
-                <li class="products__item">
-                    <article class="product">
-                        <img src="images/photo-3.png" alt="Чай черный Лакандона" class="product__image">
-                        <h3 class="product__title">Чай черный Лакандона</h3>
-                        <p class="product__price">390 ₽</p>
-                    </article>
-                </li>
-            </ul>
+                    <li class="products__item">
+                        <article class="product">
+                            <img src="images/photo-3.png" alt="Чай черный Лакандона" class="product__image">
+                            <div class="product__content">
+                                <h3 class="product__title">Чай черный Лакандона</h3>
+                                <p class="product__price">390 ₽</p>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
 
