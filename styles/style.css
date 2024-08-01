@@ -197,25 +197,44 @@ img {
     justify-content: space-between;
 }
 
-.footer__logo-link {}
+.footer__logo-link {
+    font-size: 0;
+}
 
-.footer__logo {}
+/*.footer__logo {}
 
-.footer__nav {}
+.footer__nav {}*/
 
-.footer__menu {}
+.footer__menu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
 
-.footer__menu-item {}
+/*.footer__menu-item {}
 
-.footer__menu-link {}
+.footer__menu-link {}*/
 
-.footer__info {}
+.footer__info {
+    max-width: 254px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
 
-.footer__copyright {}
+.footer__copyright {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 17px;
+}
 
-.footer__description {}
+.footer__description {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 3px;
+}
 
-.footer__developers {}
+/*.footer__developers {}
 
 .footer__developer {}
 
@@ -223,10 +242,16 @@ img {
 
 .footer__contacts {}
 
-.footer__email {}
+.footer__email {}*/
 
-.footer__social {}
+.footer__social {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    max-width: 32px;
+    max-height: 32px;
+}
 
-.footer__social-item {}
+/*.footer__social-item {}
 
-.footer__social-link {}
+.footer__social-link {}*/
